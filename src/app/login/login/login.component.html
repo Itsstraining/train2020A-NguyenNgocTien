@@ -1,0 +1,49 @@
+
+<p id="M"> đăng kí</p>
+
+<div class="login">
+<p id="C">
+    <mat-form-field appearance="outline">
+      <mat-label>username</mat-label>
+      <input matInput placeholder="Enter your name">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Password </mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Re-enter password</mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <button mat-button [matMenuTriggerFor]="menu">Language</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>English</button>
+  <button mat-menu-item>Vietnamese</button>
+  <button mat-menu-item>Singapore (English)</button>
+  <button mat-menu-item>Korean</button>
+  <button mat-menu-item>Japan</button>
+  <button mat-menu-item>Germany</button>
+</mat-menu>
+  
+</div>
+
+  
